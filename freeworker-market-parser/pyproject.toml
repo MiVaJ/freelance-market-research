@@ -1,0 +1,13 @@
+[project]
+name = "freeworker-parser"
+version = "1.0.0"
+description = "Парсер и анализатор цен на услуги с Freeworker"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "PERF"]
+ignore = ["PERF401"]

@@ -1,0 +1,12 @@
+[tool.pytest.ini_options]
+testpaths = [
+    "kwork-market-parser/tests",
+    "freeworker-market-parser/tests",
+]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+pythonpath = [
+    "kwork-market-parser",
+    "freeworker-market-parser",
+]
